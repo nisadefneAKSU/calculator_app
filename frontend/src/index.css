@@ -1,0 +1,57 @@
+:root {
+  --font-display: ui-monospace, 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --page-bg: #15171b;
+  --device-body: #24272d;
+  --screen-bg: #c9d9bd;
+  --screen-text: #1f3016;
+  --screen-context-text: #4c5f3f;
+  --screen-error-text: #7a2e1f;
+
+  --key-bg: #35383f;
+  --key-text: #eceef1;
+  --key-shadow: #1c1e22;
+
+  --key-operator-bg: #e2a63b;
+  --key-operator-text: #2a1d05;
+  --key-operator-shadow: #a5761c;
+
+  --key-function-bg: #4a4e57;
+  --key-function-text: #eceef1;
+
+  --key-equals-bg: #1f8a70;
+  --key-equals-text: #eafaf4;
+  --key-equals-shadow: #0f5c49;
+
+  --body-text: #e7e8ea;
+  --muted-text: #9a9ea6;
+  --divider: #34373d;
+  --focus-ring: #7fb3ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--page-bg);
+  color: var(--body-text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+}
+
+button {
+  font-family: inherit;
+}

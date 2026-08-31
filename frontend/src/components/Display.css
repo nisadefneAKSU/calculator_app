@@ -1,0 +1,38 @@
+.display {
+  background: var(--screen-bg);
+  border-radius: 10px;
+  padding: 18px 20px 14px;
+  margin-bottom: 18px;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+  min-height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.display__context {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--screen-context-text);
+  min-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.display__value {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--screen-text);
+  text-align: right;
+  line-height: 1.15;
+  word-break: break-all;
+  font-variant-numeric: tabular-nums;
+}
+
+.display__value--error {
+  font-size: 1.05rem;
+  font-weight: 400;
+  text-align: left;
+  color: var(--screen-error-text);
+}
