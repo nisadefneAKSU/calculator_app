@@ -106,7 +106,8 @@ Current coverage: **100%** on the core `calculator` package, **~73% overall**
 (the remaining uncovered lines are `main()`'s server bootstrap and the CORS
 wrapper, which aren't meaningfully unit-testable).
 
-To generate an HTML coverage report:
+A pre-generated HTML report is committed at
+[`backend/coverage.html`](./backend/coverage.html). To regenerate it:
 ```bash
 go test ./... -coverprofile=coverage.out
 go tool cover -html=coverage.out -o coverage.html
@@ -124,6 +125,11 @@ npm run test:coverage # with coverage report
 26 tests across four suites: the calculator's core logic (`useCalculator`
 hook), the API client, a number-formatting utility, and an end-to-end
 integration test of the `Calculator` component using Testing Library.
+
+A pre-generated HTML report is committed at
+[`frontend/coverage/index.html`](./frontend/coverage/index.html).
+
+See [`COVERAGE.md`](./COVERAGE.md) for a full summary of both reports.
 
 ---
 

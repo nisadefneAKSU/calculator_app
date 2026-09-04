@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1788520485816" clover="3.2.0">
+  <project timestamp="1788520485816" name="All files">
+    <metrics statements="120" coveredstatements="109" conditionals="79" coveredconditionals="66" methods="46" coveredmethods="37" elements="245" coveredelements="212" complexity="0" loc="120" ncloc="120" packages="4" files="12" classes="12"/>
+    <package name="api">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="calculatorClient.ts" path="/home/claude/calculator-app/frontend/src/api/calculatorClient.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="45" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/home/claude/calculator-app/frontend/src/api/types.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="27" coveredstatements="18" conditionals="18" coveredconditionals="18" methods="21" coveredmethods="12"/>
+      <file name="CalcButton.css" path="/home/claude/calculator-app/frontend/src/components/CalcButton.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="CalcButton.tsx" path="/home/claude/calculator-app/frontend/src/components/CalcButton.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="21" count="352" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="352" type="stmt"/>
+      </file>
+      <file name="Calculator.css" path="/home/claude/calculator-app/frontend/src/components/Calculator.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Calculator.tsx" path="/home/claude/calculator-app/frontend/src/components/Calculator.tsx">
+        <metrics statements="19" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="17" coveredmethods="8"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="20" count="16" type="stmt"/>
+        <line num="22" count="16" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+      </file>
+      <file name="Display.css" path="/home/claude/calculator-app/frontend/src/components/Display.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Display.tsx" path="/home/claude/calculator-app/frontend/src/components/Display.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="15" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="16" type="stmt"/>
+      </file>
+      <file name="History.css" path="/home/claude/calculator-app/frontend/src/components/History.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="History.tsx" path="/home/claude/calculator-app/frontend/src/components/History.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="9" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="15" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="69" coveredstatements="67" conditionals="48" coveredconditionals="36" methods="22" coveredmethods="22"/>
+      <file name="useCalculator.ts" path="/home/claude/calculator-app/frontend/src/hooks/useCalculator.ts">
+        <metrics statements="69" coveredstatements="67" conditionals="48" coveredconditionals="36" methods="22" coveredmethods="22"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="52" count="68" type="stmt"/>
+        <line num="53" count="68" type="stmt"/>
+        <line num="55" count="68" type="stmt"/>
+        <line num="56" count="25" type="stmt"/>
+        <line num="57" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="62" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="13" type="stmt"/>
+        <line num="65" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="68" count="5" type="stmt"/>
+        <line num="72" count="68" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="74" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="75" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="83" count="68" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="85" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="87" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="91" count="68" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="93" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="101" count="68" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="107" count="68" type="stmt"/>
+        <line num="114" count="7" type="stmt"/>
+        <line num="115" count="7" type="stmt"/>
+        <line num="116" count="7" type="stmt"/>
+        <line num="117" count="5" type="stmt"/>
+        <line num="118" count="5" type="stmt"/>
+        <line num="119" count="5" type="stmt"/>
+        <line num="129" count="5" type="stmt"/>
+        <line num="131" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="132" count="2" type="stmt"/>
+        <line num="140" count="2" type="stmt"/>
+        <line num="146" count="68" type="stmt"/>
+        <line num="148" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="149" count="7" type="stmt"/>
+        <line num="151" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="157" count="1" type="stmt"/>
+        <line num="163" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="172" count="1" type="stmt"/>
+        <line num="175" count="6" type="stmt"/>
+        <line num="185" count="68" type="stmt"/>
+        <line num="186" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="187" count="1" type="stmt"/>
+        <line num="188" count="1" type="stmt"/>
+        <line num="191" count="68" type="stmt"/>
+        <line num="192" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="193" count="5" type="cond" truecount="3" falsecount="1"/>
+        <line num="195" count="5" type="stmt"/>
+        <line num="196" count="5" type="stmt"/>
+        <line num="197" count="5" type="stmt"/>
+        <line num="199" count="5" type="stmt"/>
+        <line num="205" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="206" count="3" type="stmt"/>
+        <line num="216" count="68" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="9" coveredstatements="9" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <file name="formatNumber.ts" path="/home/claude/calculator-app/frontend/src/utils/formatNumber.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="6" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="25" type="stmt"/>
+        <line num="11" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="19" count="25" type="cond" truecount="5" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="25" count="23" type="stmt"/>
+        <line num="27" count="23" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
