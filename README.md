@@ -1,9 +1,9 @@
 # Calculator App
-<img width="300" height="400" alt="Screenshot 2026-09-06 at 19 08 09" src="https://github.com/user-attachments/assets/37ba9d9c-4688-4415-9e97-3b3bed99f85c" />
+<img width="300" height="500" alt="Screenshot 2026-09-06 at 19 08 09" src="https://github.com/user-attachments/assets/37ba9d9c-4688-4415-9e97-3b3bed99f85c" />
 
-<img width="300" height="400" alt="Screenshot 2026-09-06 at 19 08 36" src="https://github.com/user-attachments/assets/c828bf2b-03c4-4634-8bc8-70cdb39ad7fc" />
+<img width="300" height="500" alt="Screenshot 2026-09-06 at 19 08 36" src="https://github.com/user-attachments/assets/c828bf2b-03c4-4634-8bc8-70cdb39ad7fc" />
 
-<img width="300" height="400" alt="Screenshot 2026-09-06 at 19 08 20" src="https://github.com/user-attachments/assets/31b01574-bf7d-409d-8a02-23659d362f8c" />
+<img width="300" height="500" alt="Screenshot 2026-09-06 at 19 08 20" src="https://github.com/user-attachments/assets/31b01574-bf7d-409d-8a02-23659d362f8c" />
 
 A full-stack calculator: a Go REST API backend that performs the arithmetic,
 and a React + TypeScript frontend that provides the UI and calls that API
