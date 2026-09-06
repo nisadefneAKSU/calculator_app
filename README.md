@@ -264,7 +264,6 @@ grid.
 - No persistence is required — calculation history lives only in frontend
   memory for the current session (capped at the last 8 entries) and resets
   on page reload.
-- No authentication/authorization was in scope.
 
 ---
 
