@@ -265,9 +265,6 @@ grid.
   memory for the current session (capped at the last 8 entries) and resets
   on page reload.
 - No authentication/authorization was in scope.
-- CORS is left permissive (`Access-Control-Allow-Origin: *`) since this is
-  a case study with no real user data; a production deployment
-  would lock this down to a known frontend origin.
 
 ---
 
