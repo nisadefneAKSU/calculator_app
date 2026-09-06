@@ -266,7 +266,7 @@ grid.
   on page reload.
 - No authentication/authorization was in scope.
 - CORS is left permissive (`Access-Control-Allow-Origin: *`) since this is
-  a demo/take-home project with no real user data; a production deployment
+  a case study with no real user data; a production deployment
   would lock this down to a known frontend origin.
 
 ---
